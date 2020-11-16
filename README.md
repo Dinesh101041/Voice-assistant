@@ -36,8 +36,7 @@ This is voice assitant using python
     
 # To run
  Clone or download the Repository 
-      
-      After that type bleow command in cmd
+ After that type bleow command in cmd
       
           `python main.py`   
           
