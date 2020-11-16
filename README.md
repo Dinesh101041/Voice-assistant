@@ -38,7 +38,7 @@ This is voice assitant using python
  Clone or download the Repository 
  After that type bleow command in cmd
       
-          `python main.py`   
+          python main.py
           
           
           
