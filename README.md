@@ -11,14 +11,23 @@ This is voice assitant using python
   ```
   
 # Dependencies
-
-  
   1.To import packages
+      
+      ```
+       1.Time
+       2.Google search
+       3.youtube videos 
+       
+      ```
+   
    '''
+   
       - Webbrowser- To display web based documents
       - OS - this to do system operations
       - random - to generate random file
       - time - to get the time
+      
+      
     '''
       
   2.Install packages
