@@ -1,47 +1,27 @@
-# Voice-assistant
+# Voice assistant
 
-This is voice assistant using python
+This is a voice assistant using Python
 
-# It can search for
- 
-  ```
-  1.Time
-  2.Google search
-  3.youtube videos 
-  ```
+# It can search by
+1. Time
+2. Google search
+3. YouTube videos 
   
 # Dependencies
-  1.To import packages
-  
-   
-      - Webbrowser- To display web based documents
-      - OS - this to do system operations
-      - random - to generate random file
-      - time - to get the time
-      
-     
-    
-      
-  2.Install packages
-  
+1. Python Standard Library packages:
+    - `os` - to perform system operations
+    - `random` - to generate random file
+    - `time` - to get the time
+    - `webbrowser` - to display web-based documents
+2. Third party packages:
+    - `gTTS` - Google text-to-speech
+    - `playsound` - to play the reply
+    - `pyaudio` - to speak through the microphone
+    - `SpeechRecognition` - Google package to recognize speech
 
-    pip install speechrecognition-Google package to recognize speech
-    pip install gtts - google text to speech package
-    pip install play sound - to play the reply
-    pip install pyaudio - to speak through the microphone
-   
-   
-   
-   
-    
 # To run
- Clone or download the Repository 
- After that type bleow command in cmd
-      
-          python main.py
-          
-          
-          
-    
-
-
+Clone or download the Repository and then type the following:
+```
+python -m pip install -r requirements.txt
+python main.py
+```
