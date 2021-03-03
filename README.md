@@ -1,6 +1,6 @@
-# Voice-assitant
+# Voice-assistant
 
-This is voice assitant using python
+This is voice assistant using python
 
 # It can search for
  
