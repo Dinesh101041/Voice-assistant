@@ -2,7 +2,6 @@ import os
 import random
 import time
 import webbrowser
-from time import ctime
 
 import playsound
 import speech_recognition as sr
@@ -29,7 +28,7 @@ def record_audio(ask=False):
 def assistant_speak(audio_string):
     tts = gTTS(text=audio_string, lang="en")
     r = random.randint(1, 1000000)
-    audio_file = "audio-" + str(r) + ".mp3"
+    audio_file = f"audio-{r}.mp3"
     tts.save(audio_file)
     playsound.playsound(audio_file)
     print(audio_string)
@@ -42,7 +41,7 @@ def respond(voicedata):
         assistant_speak("My name is your assistant")
     # time
     if "what time is it" in voicedata:
-        assistant_speak(ctime())
+        assistant_speak(time.ctime())
     # google search
     if "search " in voicedata:
         search = record_audio("what do you want to search for")
