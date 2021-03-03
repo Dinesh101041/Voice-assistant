@@ -61,6 +61,6 @@ def respond(voicedata):
 
 time.sleep(1)
 assistant_speak("How can i help you")
-while 1:
+while True:
     voicedata = record_audio()
     respond(voicedata)
